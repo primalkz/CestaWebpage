@@ -8,9 +8,11 @@
     height:100%;
 } */
 
+.ui-page { -webkit-backface-visibility: hidden; }
+
 :root {
-    --main-color: #997345;
-    --black: #13131a;
+    --main-color: #FAA700;
+    --black: #17121b;
     --bg: #120d16;
     --border: .1rem solid rgba(255, 255, 255, .3);
 }
@@ -28,7 +30,7 @@
 }
 
 html {
-    font-size: 52%;
+    font-size: 44%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
@@ -219,6 +221,11 @@ section {
     width: 100%;
     text-align: center;
 } */
+
+.intro {
+    color: #fff;
+    font-size: 2rem;
+}
 
 .home {
     min-height: 100vh;
@@ -542,6 +549,7 @@ section {
 
 .footer .share a:hover {
     background-color: var(--main-color);
+    color: #120d16;
 }
 
 .footer .links {
